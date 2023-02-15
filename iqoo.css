@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"Open Sans";
+}
+header{
+    background-color: antiquewhite;
+    height: 630px;
+    background-image: linear-gradient(to left,rgba(0,0,0,0),black),url(Images/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px,10px;
+}
+.top-block{
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 10px,50px;
+    position: relative;
+    height: 70px;
+}
+.hero-logo{
+    background-image:url(Images/iqoo\ logo.png);
+    height: 50px;
+    display: inline-block;
+    width: 109px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+nav{
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 240px;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+nav ul li a:hover{
+        color: orange;
+}
+.user-login{
+    color:white;
+    width: 100px;
+    font-size: 20px;
+    position: absolute;
+    right:80px;
+    top:20px;
+    font-weight:600px;
+}
+.user-login ul{
+    font-size: 18px;
+    font-weight: lighter;
+    list-style-type: none;
+    background-color: rgb(255,255,255);
+    position: absolute;
+    width: 175px;
+    top: 50px;
+    left: -180px;
+    padding: 10px 15px;
+    display: none;
+}
+.user-login span:hover{
+    color: orange;
+}
+.user-login ul li{
+    margin-top: 10px;
+}
+.user-login ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.user-login:hover ul{
+    display: block;
+}
+.hero-block{
+    width: 500px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    color: white;
+}
+.hero-block h1{
+    font-size: 45px;
+}
+.hero-block p{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.hero-block div:last-of-type{
+    font-size: 40px;
+}
+.hero-block div:last-of-type span{
+    font-size: 40px;
+}
+.hero-block button{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 30%;
+    border: 3px solid white;
+}
+.hero-block button:hover{
+    color: orange;
+    background-color: transparent;
+    border-color: orange;
+}
+.phone-cards{
+     height: 280px; 
+     position: relative;
+}
+.card{
+    height: 300px;
+    width: 418px;
+    background-color: black;
+    display: inline-block;
+    top: 0px;
+    background-image: url(Images/iqoo3.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:hover{
+    background-size: 120%;
+}
+.lower-block{
+    height: 200px;
+   top: 22px;
+   position: relative;
+}
+.lower ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 30px;
+    
+}
+.lower ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 40px;
+    color: grey;
+}
+.lower ul li a:hover{
+    color: orange;
+}
+.end ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 30px;
+    margin: 20px;
+    color: gray;
+}
+.end ul li a:hover{
+    color: orange;
+    
+}
+.end{
+    position: absolute;
+    right: 40px;
+    
+}
+.ending{
+    background-color: aliceblue;
+    position: absolute;
+    height: 100px;
+    color: grey;
+    font-size: 19.5px;
+    font-weight: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    bottom: -90px;
+}
+.line a{
+    color: gray;
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px;
+}
+.line ul li{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.line{
+    margin: 10px;
+    top: 20px;
+}
+.line a:hover{
+    color: orange;
+}
